@@ -5,7 +5,7 @@ int getBitAtIndex(unsigned int number, int idx)
     int bit = 0;
     return bit;
 }
-
+// 11110000
 
 int countOnes(unsigned long long  number)
 {
@@ -19,7 +19,7 @@ void printBinary(unsigned int  number)
 }
 
 template<typename T>
-void testAnswer(int testNum, const std::string message, T answer, T correctAnswer)
+void testAnswer(int testNum, const std::string& message, T answer, T correctAnswer)
 {
     std::cout << "Test " << testNum << std::endl;
     std::cout << message << std::endl;
@@ -55,7 +55,7 @@ int main()
     testAnswer(3, "Number of 1-bits in 126", answer, correctAnswer);
 
     
-// testing function 2
+// testing function 3
     printBinary(9);
     // 0000'0000'0000'0000'0000'0000'0000'1001 
     
